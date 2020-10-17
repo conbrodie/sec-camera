@@ -9,7 +9,7 @@ import threading
 
 email_update_interval = 600 # sends an email only once in this time interval
 video_camera = VideoCamera(flip=True) # creates a camera object, flip vertically
-object_classifier = cv2.CascadeClassifier("models/facial_recognition_model.xml") # an opencv classifier
+object_classifier = cv2.CascadeClassifier("models/fullbody_recognition_model.xml") # an opencv classifier
 
 # App Globals (do not edit do not edit this)
 app = Flask(__name__)
